@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TaskScheduler", "TaskScheduler\TaskScheduler.vcxproj", "{06D4BCCE-1502-4495-B2F0-9E4372667224}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TaskSchedulerTest", "TaskSchedulerTest\TaskSchedulerTest.vcxproj", "{71C03ABF-2585-461E-9EC9-38F469650A1D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{06D4BCCE-1502-4495-B2F0-9E4372667224} = {06D4BCCE-1502-4495-B2F0-9E4372667224}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TaskSchedulerProgram", "TaskSchedulerProgram\TaskSchedulerProgram.vcxproj", "{10E7812B-757E-495C-B1CA-072E8696D873}"
+	ProjectSection(ProjectDependencies) = postProject
+		{06D4BCCE-1502-4495-B2F0-9E4372667224} = {06D4BCCE-1502-4495-B2F0-9E4372667224}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06D4BCCE-1502-4495-B2F0-9E4372667224}.Debug|x64.ActiveCfg = Debug|x64
+		{06D4BCCE-1502-4495-B2F0-9E4372667224}.Debug|x64.Build.0 = Debug|x64
+		{06D4BCCE-1502-4495-B2F0-9E4372667224}.Debug|x86.ActiveCfg = Debug|Win32
+		{06D4BCCE-1502-4495-B2F0-9E4372667224}.Debug|x86.Build.0 = Debug|Win32
+		{06D4BCCE-1502-4495-B2F0-9E4372667224}.Release|x64.ActiveCfg = Release|x64
+		{06D4BCCE-1502-4495-B2F0-9E4372667224}.Release|x64.Build.0 = Release|x64
+		{06D4BCCE-1502-4495-B2F0-9E4372667224}.Release|x86.ActiveCfg = Release|Win32
+		{06D4BCCE-1502-4495-B2F0-9E4372667224}.Release|x86.Build.0 = Release|Win32
+		{71C03ABF-2585-461E-9EC9-38F469650A1D}.Debug|x64.ActiveCfg = Debug|x64
+		{71C03ABF-2585-461E-9EC9-38F469650A1D}.Debug|x64.Build.0 = Debug|x64
+		{71C03ABF-2585-461E-9EC9-38F469650A1D}.Debug|x86.ActiveCfg = Debug|Win32
+		{71C03ABF-2585-461E-9EC9-38F469650A1D}.Debug|x86.Build.0 = Debug|Win32
+		{71C03ABF-2585-461E-9EC9-38F469650A1D}.Release|x64.ActiveCfg = Release|x64
+		{71C03ABF-2585-461E-9EC9-38F469650A1D}.Release|x64.Build.0 = Release|x64
+		{71C03ABF-2585-461E-9EC9-38F469650A1D}.Release|x86.ActiveCfg = Release|Win32
+		{71C03ABF-2585-461E-9EC9-38F469650A1D}.Release|x86.Build.0 = Release|Win32
+		{10E7812B-757E-495C-B1CA-072E8696D873}.Debug|x64.ActiveCfg = Debug|x64
+		{10E7812B-757E-495C-B1CA-072E8696D873}.Debug|x64.Build.0 = Debug|x64
+		{10E7812B-757E-495C-B1CA-072E8696D873}.Debug|x86.ActiveCfg = Debug|Win32
+		{10E7812B-757E-495C-B1CA-072E8696D873}.Debug|x86.Build.0 = Debug|Win32
+		{10E7812B-757E-495C-B1CA-072E8696D873}.Release|x64.ActiveCfg = Release|x64
+		{10E7812B-757E-495C-B1CA-072E8696D873}.Release|x64.Build.0 = Release|x64
+		{10E7812B-757E-495C-B1CA-072E8696D873}.Release|x86.ActiveCfg = Release|Win32
+		{10E7812B-757E-495C-B1CA-072E8696D873}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
